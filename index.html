@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins:wght@300&family=Raleway:wght@100;500;600&display=swap" rel="stylesheet">
+    <title>5 day Forecast DHK</title>
+</head>
+
+<body>
+
+    <header class="text-white">
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#">5 day Forecast DHK</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <section id="home">
+            <h1>Welcome to 5DFD</h1>
+            <p>What does it feel like where you are?</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>Climate change is real, guys. We'll let you know what to wear today.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>Enter the city you live in and we'll take care of the rest.</p>
+        </section>
+
+        <section id="SearchBtn">
+            <div class="col-md-6 mx-auto">
+                <div class="input-group mb-3">
+                    <input type="text" id="cityInput" class="form-control" placeholder="Enter city name" aria-label="City name" aria-describedby="searchBtn">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-primary" type="button" id="searchBtn">Search</button>
+                 </div>
+             </div>      
+         </div>
+        </section>
+    </div>
+        <div class="container-xl">
+        <p>THIS IS WHERE THE MAGIC HAPPENS.</p>
+        <div id="weatherData" class="mt-4"></div>
+        <section id="weatherForecast" class="mt-4">
+            <div class="container-xl" id="containerWeather"></div>
+        </section>
+        </div>
+
+    <div class="container-l" id="contact">
+        <h1>Contact Me</h1>
+        <p>My Portfolio: <a href='https://box-the-third.github.io/'>https://box-the-third.github.io/</a></p>
+        <p>My Email: <a href='mailto:imboxthethird@gmail.com'>imboxthethird@gmail.com</a></p>
+    </div>
+    
+
+    <footer class="text-white text-center py-3">
+        <p>&copy; 2023 Five Day Forecast Dhaka. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="scripted.js"></script>
+</body>
+
+</html>
